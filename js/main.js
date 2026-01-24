@@ -1,21 +1,20 @@
 // Project data structure
 const projectsData = {
   project1: {
-    title: 'Industrial Product Design',
+    title: 'Climbing Carabiner - Hard-Surface Product Modeling',
     domain: 'Product Design',
     year: '2025',
     status: 'Completed',
-    context: 'Professional 3D modeling and visualization of industrial product. Created from concept to final render with attention to detail and production-ready topology.',
+    context: 'Personal hard-surface modeling project focusing on accurate mechanical proportions and clean, production-ready topology. Designed as a realistic product asset suitable for visualization, presentation, and downstream pipeline use.',
     scope: [
-      'High-poly modeling with clean topology',
-      'Professional material and texture setup',
-      'Studio lighting and rendering',
-      'Multiple viewing angles and details'
+      'Full pipeline: hard-surface modeling, retopology, and final rendering',
+      'Emphasis on clean topology, edge control, and dimensional accuracy',
+      'High-detail asset prepared for professional product visualization workflows'
     ],
     images: [
-      'asset/img1.jpg',
-      'asset/img1_b.jpg',
-      'asset/img1_c.jpg'
+      'assets/modeling/carabiner/carabiner-1.webp',
+      'assets/modeling/carabiner/carabiner-2.webp',
+      'assets/modeling/carabiner/carabiner-3.webp'
     ],
     software: 'Blender',
     engine: 'Cycles',
