@@ -16,51 +16,52 @@ const projectsData = {
       'assets/modeling/carabiner/carabiner-2.webp',
       'assets/modeling/carabiner/carabiner-3.webp'
     ],
-    software: 'Blender',
+    software: 'Blender & Substance Painter',
     engine: 'Cycles',
     topology: 'Clean / Production Ready',
     textures: 'PBR 4K'
   },
   project2: {
-    title: 'Mechanical Component',
-    domain: 'Mechanical',
+    title: 'Hand Fan | Consumer Product Hard-Surface Modeling',
+    domain: 'Product Design',
     year: '2025',
     status: 'Completed',
-    context: 'Detailed hard-surface mechanical component with complex geometry. Engineered for accuracy and visual clarity.',
+    context: 'Personal study focused on translating compact consumer electronics into a production-ready 3D asset. The project emphasizes mechanical plausibility, proportion accuracy, and efficient topology suitable for real-time visualization or product presentation.',
     scope: [
-      'Complex hard-surface modeling',
-      'Technical accuracy and detail',
-      'Wireframe visualization',
-      'Multiple viewing angles'
+      'End-to-end 3D modeling based on functional product logic',
+      'Hard-surface modeling with clean subdivision workflow',
+      'UV layout preparation for texture or render pipelines',
+      'Asset readiness for web, real-time, or marketing renders'
     ],
     images: [
-      'asset/img2.jpg',
-      'asset/img2_b.jpg'
+      'assets/modeling/hand_fan/hand_fan-1.webp',
+      'assets/modeling/hand_fan/hand_fan-2.webp',
+      'assets/modeling/hand_fan/hand_fan-3.webp'
     ],
-    software: 'Blender',
+    software: 'Blender & Substance Painter',
     engine: 'Cycles',
-    topology: 'High Poly / Optimized',
-    textures: 'PBR 2K'
+    topology: 'Clean / Production Ready',
+    textures: 'PBR 4K'
   },
   project3: {
-    title: 'Product Visualization',
-    domain: 'Visualization',
+    title: 'Neck Fan | Wearable Product 3D Modeling with Structural Accuracy',
+    domain: 'Product Design',
     year: '2025',
     status: 'Completed',
-    context: 'Product showcase with professional lighting setup and material studies. Designed for client presentation and marketing materials.',
+    context: 'Personal project exploring wearable consumer product design with asymmetric and curved forms. The focus is on maintaining ergonomic proportions while ensuring clean geometry and manufacturable detailing for visualization or prototyping purposes.',
     scope: [
-      'Product modeling and refinement',
-      'Advanced lighting design',
+      'Detailed hard-surface modeling of a wearable product',
+      'Emphasis on curvature continuity and surface cleanliness',
       'Material and texture exploration',
-      'Detail close-ups and variations'
+      'Prepared for presentation renders, real-time engines, or e-commerce visualization'
     ],
     images: [
-      'asset/img3.jpg',
-      'asset/img3_b.jpg'
+      'assets/modeling/neck_fan/neck_fan-1.webp',
+      'assets/modeling/neck_fan/neck_fan-2.webp'
     ],
-    software: 'Blender',
+    software: 'Blender & Substance Painter',
     engine: 'Cycles',
-    topology: 'Optimized',
+    topology: 'Clean / Production Ready',
     textures: 'PBR 4K'
   },
   project4: {
