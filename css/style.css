@@ -214,6 +214,7 @@ body {
   overflow: hidden;
   background: var(--color-hover);
   aspect-ratio: 1;
+  border-radius: 15px;
 }
 
 .item-image {
@@ -231,6 +232,7 @@ body {
 
 .portfolio-item:hover .item-image img {
   transform: scale(1.04);
+  filter: blur(4px);
 }
 
 .item-overlay {
@@ -248,7 +250,7 @@ body {
 }
 
 .portfolio-item:hover .item-overlay {
-  opacity: 1;
+    opacity: 70%;
 }
 
 .item-info h3 {
