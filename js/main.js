@@ -65,24 +65,26 @@ const projectsData = {
     textures: 'PBR 4K'
   },
   project4: {
-    title: 'Architectural Elements',
-    domain: 'Architecture',
-    year: '2025',
+    title: 'Macroboard | Product Visualization',
+    domain: 'Product Visualization',
+    year: '2026',
     status: 'Completed',
-    context: 'Environmental and architectural modeling for game assets and architectural visualization. Designed for real-time engine integration.',
+    context: 'End-to-end macroboard product visualization, fully modeled, textured, and rendered by a single artist, featuring a clean product render, dual variants with exposed switches, and an exploded view to highlight internal structure in a minimal, industrial style.',
     scope: [
-      'Architectural modeling',
-      'Environment design',
-      'Game-ready optimization',
-      'Modular asset structure'
+      'Hard-surface modeling',
+      'Texturing and material setup',
+      'Lighting and render composition',
+      'Exploded-view visualization'
     ],
     images: [
-      'asset/img4.jpg'
+      'assets/modeling/macroboard/macroboard-1.webp',
+      'assets/modeling/macroboard/macroboard-2.webp',
+      'assets/modeling/macroboard/macroboard-3.webp'
     ],
     software: 'Blender',
-    engine: 'Eevee',
-    topology: 'Game Ready',
-    textures: 'Diffuse + Normal'
+    engine: 'Cycles',
+    topology: 'Render-oriented',
+    textures: 'Procedural'
   },
   project5: {
     title: 'Technical Rendering',
