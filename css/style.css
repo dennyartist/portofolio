@@ -444,15 +444,15 @@ body {
 
 .modal-close {
   position: absolute;
-  top: 12px;
-  right: 12px;
-  background: var(--color-hover);
+  top: 8px;
+  right: 8px;
+  background: none;
   border: none;
   font-size: 28px;
   cursor: pointer;
   color: var(--color-accent);
   transition: all var(--transition);
-  padding: 8px 12px;
+  padding: 4px 12px;
   line-height: 1;
   z-index: 902;
   border-radius: 6px;
@@ -462,8 +462,8 @@ body {
 }
 
 .modal-close:hover {
-  background: rgba(0, 0, 0, 0.1);
-  transform: scale(1.1);
+  background: none;
+  transform: scale(1.2);
 }
 
 .modal-details {
@@ -481,7 +481,7 @@ body {
   grid-template-columns: 2fr 1fr;
   gap: var(--spacing-md);
   align-items: start;
-  padding: var(--spacing-lg);
+  padding: var(--spacing-md);
   padding-bottom: var(--spacing-md);
   overflow-y: auto;
   overflow-x: hidden;
@@ -758,21 +758,42 @@ body {
     font-size: 12px;
   }
 
+  .modal-close {
+    top: 12px;
+    right: 12px;
+    color: white;
+    mix-blend-mode: difference;
+  }
+
   .modal-content {
     grid-template-columns: 1fr;
-    gap: var(--spacing-lg);
+    width: 100%;
+    max-height: 100%;
+    padding: var(--spacing-sm);
+  }
+
+  .project-modal {
+  padding: var(--spacing-sm);
   }
 
   .modal-details {
     max-height: none;
   }
 
+  .gallery-main {
+  margin: 0 auto;
+}
+
   .project-identifier {
     grid-template-columns: 1fr;
   }
 
+  .project-title {
+  font-size: 24px;
+}
+
   .specs-grid {
-    grid-template-columns: 1fr;
+  grid-template-columns: repeat(2, 1fr);
   }
 
   .contact-links {
