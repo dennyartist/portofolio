@@ -534,24 +534,28 @@ body {
   align-items: center;
   justify-content: space-between;
   pointer-events: none;
-  z-index: 10;
+  padding: 0 16px;
+
 }
 
 .gallery-btn {
   padding: 12px;
-  background: none;
+  background: rgba(0, 0, 0, 0.5);
   border: none;
   color: white;
-  mix-blend-mode: difference;
-  font-size: 40px;
+  mix-blend-mode: normal;
+  font-size: 32px;
   cursor: pointer;
   transition: all var(--transition);
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 56px;
-  height: 56px;
+  width: 36px;
+  height: 36px;
   pointer-events: all;
+  border-radius: 50%;
+  backdrop-filter: blur(4px);
+  padding-top: 8px;
 }
 
 .gallery-btn:hover {
@@ -784,6 +788,20 @@ body {
 
   .gallery-main {
   margin: 0 auto;
+  }
+
+  .gallery-nav {
+    padding: 0 8px;
+  }
+
+  .gallery-btn {
+    width: 28px;
+    height: 28px;
+    font-size: 22px;
+    padding-bottom: 7px; /* Sesuaikan nudge-nya untuk ukuran kecil */
+  }
+  .gallery-btn:hover {
+    transform: none;
   }
 
   .project-identifier {
