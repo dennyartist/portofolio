@@ -512,6 +512,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 12px;
 }
 
 .gallery-img {
@@ -538,9 +539,10 @@ body {
 
 .gallery-btn {
   padding: 12px;
-  background: rgba(0, 0, 0, 0.5);
+  background: none;
   border: none;
   color: white;
+  mix-blend-mode: difference;
   font-size: 40px;
   cursor: pointer;
   transition: all var(--transition);
@@ -553,7 +555,7 @@ body {
 }
 
 .gallery-btn:hover {
-  background: rgba(0, 0, 0, 0.8);
+  transform: scale(1.2);
 }
 
 .gallery-thumbs {
@@ -782,7 +784,7 @@ body {
 
   .gallery-main {
   margin: 0 auto;
-}
+  }
 
   .project-identifier {
     grid-template-columns: 1fr;
@@ -790,7 +792,7 @@ body {
 
   .project-title {
   font-size: 24px;
-}
+  }
 
   .specs-grid {
   grid-template-columns: repeat(2, 1fr);
