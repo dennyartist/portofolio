@@ -798,7 +798,7 @@ body {
     width: 28px;
     height: 28px;
     font-size: 22px;
-    padding-bottom: 7px; /* Sesuaikan nudge-nya untuk ukuran kecil */
+    padding-top: 10px; /* Sesuaikan nudge-nya untuk ukuran kecil */
   }
   .gallery-btn:hover {
     transform: none;
