@@ -87,45 +87,38 @@ const projectsData = {
     textures: 'Procedural'
   },
   project5: {
-    title: 'Technical Rendering',
-    domain: 'Technical',
-    year: '2025',
-    status: 'Completed',
-    context: 'Complex technical asset with advanced PBR texturing and material workflow. Showcasing realistic rendering and surface detail.',
+    title: '-',
+    domain: '-',
+    year: '-',
+    status: '-',
+    context: '-',
     scope: [
-      'PBR material development',
-      'Technical texture mapping',
-      'Complex geometry handling',
-      'Detail and close-up documentation'
+      '-'
     ],
     images: [
-      'asset/img5.jpg',
-      'asset/img5_b.jpg'
+      'assets/empty.webp'
     ],
-    software: 'Blender',
-    engine: 'Cycles',
-    topology: 'Production Ready',
-    textures: 'PBR 8K'
+    software: '-',
+    engine: '-',
+    topology: '-',
+    textures: '-'
   },
   project6: {
-    title: 'Studio Lighting Setup',
-    domain: 'Studio',
-    year: '2025',
-    status: 'Completed',
-    context: 'Professional studio setup demonstrating advanced lighting techniques and material presentation. Client-ready visualization.',
+    title: '-',
+    domain: '-',
+    year: '-',
+    status: '-',
+    context: '-',
     scope: [
-      'Studio lighting design',
-      'Material showcase',
-      'Professional render setup',
-      'Multiple lighting variations'
+      '-'
     ],
     images: [
-      'asset/img6.jpg'
+      'assets/empty.webp'
     ],
-    software: 'Blender',
-    engine: 'Cycles',
-    topology: 'Optimized',
-    textures: 'PBR 4K'
+    software: '-',
+    engine: '-',
+    topology: '-',
+    textures: '-'
   }
 };
 
